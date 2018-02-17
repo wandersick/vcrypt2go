@@ -9,4 +9,4 @@ Requirements
 
 Looking for TrueCrypt? tCrypt2Go based on TrueCrypt is available at https://github.com/wandersick/tcrypt2go/
 
-** vCrypt2Go based on VeraCrypt is under works. If you need a solution that works now, refer to tCrypt2Go based on TrueCrypt above **
+__vCrypt2Go based on VeraCrypt is under works. If you need a solution that works now, refer to tCrypt2Go based on TrueCrypt above__
