@@ -5,4 +5,6 @@ With this set of tools, anyone can turn any existing unsecured USB stick or hard
 
 Supported platforms: TBC
 
+** vCrypt2Go based on VeraCrypt is under works. If you need a solution that works now, refer to tCrypt2Go based on TrueCrypt below  **
+
 Looking for TrueCrypt? tCrypt2Go based on TrueCrypt is available at https://github.com/wandersick/tcrypt2go/
