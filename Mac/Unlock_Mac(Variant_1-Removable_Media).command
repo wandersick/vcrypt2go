@@ -27,7 +27,7 @@ mountVC () {
 dirPath=`dirname "$0"`
 cd "$dirPath"
 
-# mount VeraCrypt volumes. A maximum of 3 USB sticks are supported concurrently
+# mount VeraCrypt volumes. A maximum of 3 USB sticks will be supported concurrently
 
 # check if VeraCrypt is installed. If not, install it. Otherwise, mount container (requires installed VeraCrypt)
 
@@ -36,11 +36,17 @@ cd "$dirPath"
 if ls /Applications/VeraCrypt.app; then
 	mountVC
 else
-	cp -rf './VeraCrypt.pkg' "$TMPDIR"
-	osascript -e 'tell app "System Events" to activate'	
-	osascript -e 'tell app "System Events" to display dialog "VeraCrypt not detected. It will be installed now." buttons ("OK") default button 1 with icon 0'
-	osascript -e "do shell script \"./vc_silent_setup.command\" with administrator privileges"
-	mountVC
+	if ls './VeraCrypt.pkg'; then
+		cp -rf './VeraCrypt.pkg' "$TMPDIR"
+		osascript -e 'tell app "System Events" to activate'	
+		osascript -e 'tell app "System Events" to display dialog "VeraCrypt not detected. It will be installed now." buttons ("OK") default button 1 with icon 0'
+		osascript -e "do shell script \"./vc_silent_setup.command\" with administrator privileges"
+		mountVC
+	else
+		osascript -e 'tell app "System Events" to activate'	
+		osascript -e 'tell app "System Events" to display dialog "VeraCrypt is required. Please install it first." buttons ("OK") default button 1 with icon 0'
+		open './VeraCrypt for Mac/'
+	fi
 fi
 
 # less aggressive than killall, but requires confirmation
