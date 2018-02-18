@@ -5,43 +5,26 @@
 # Date: 17-Feb-2018
 # Language: Shell (Mac OS X)
 
-# ** USB Flash Drive (Container) version **
+# ** USB Hard Drive (VeraCrypt Partition) version **
 # ** Use AppleScript to run this instead of running directly to suppress terminal output **
 
-# define function which is reused often
-
-mountVC () {
-	if ls /Volumes/VeraCrypt; then
-		if ls /Volumes/VeraCrypt1; then
-			./.DO_NOT_DELETE/VeraCrypt.app/Contents/MacOS/VeraCrypt ./.DO_NOT_DELETE/vc-container2.vc /Volumes/VeraCrypt2 --force
-		else
-			./.DO_NOT_DELETE/VeraCrypt.app/Contents/MacOS/VeraCrypt ./.DO_NOT_DELETE/vc-container1.vc /Volumes/VeraCrypt1 --force
-		fi
-	else
-		./.DO_NOT_DELETE/VeraCrypt.app/Contents/MacOS/VeraCrypt ./.DO_NOT_DELETE/vc-container.vc /Volumes/VeraCrypt --force
-	fi
-}
-
 # better than: cd `dirname "$0"` which generates errors when path contains space
-
 dirPath=`dirname "$0"`
 cd "$dirPath"
 
-# mount VeraCrypt volumes. A maximum of 3 USB sticks will be supported concurrently
+# auto-mount all encrypted drives.
 
-# check if VeraCrypt is installed. If not, install it. Otherwise, mount container (requires installed VeraCrypt)
-
-# *** after test rename these from vc-container1.vc, 2.vc, 3.vc to vc-container.vc 
+# check if VeraCrypt is installed. If not, install it. Otherwise, auto mount all file systems (requires visudo and installed VeraCrypt)
 
 if ls /Applications/VeraCrypt.app; then
-	mountVC
+	/Applications/VeraCrypt.app/Contents/MacOS/VeraCrypt --auto-mount=devices --force
 else
 	if ls './VeraCrypt.pkg'; then
 		cp -rf './VeraCrypt.pkg' "$TMPDIR"
 		osascript -e 'tell app "System Events" to activate'	
 		osascript -e 'tell app "System Events" to display dialog "VeraCrypt not detected. It will be installed now." buttons ("OK") default button 1 with icon 0'
 		osascript -e "do shell script \"./vc_silent_setup.command\" with administrator privileges"
-		mountVC
+		/Applications/VeraCrypt.app/Contents/MacOS/VeraCrypt --auto-mount=devices --force
 	else
 		osascript -e 'tell app "System Events" to activate'	
 		osascript -e 'tell app "System Events" to display dialog "VeraCrypt is required. Please install it first." buttons ("OK") default button 1 with icon 0'
