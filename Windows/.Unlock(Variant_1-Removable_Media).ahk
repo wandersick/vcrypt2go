@@ -6,7 +6,7 @@ Exe_File=%In_Dir%\.Unlock.exe
 Execution_Level=3
 [VERSION]
 Set_Version_Info=1
-Company_Name=wandersick
+Company_Name=a wandersick
 File_Description=Open Protected Drive (Container) via vCrypt2Go
 File_Version=2.0.0.0
 Inc_File_Version=0

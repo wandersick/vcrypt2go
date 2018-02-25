@@ -6,7 +6,7 @@ Exe_File=%In_Dir%\.Lock.exe
 Execution_Level=3
 [VERSION]
 Set_Version_Info=1
-Company_Name=wandersick
+Company_Name=a wandersick
 File_Description=Close Protected Drive via vCrypt2Go
 File_Version=2.0.0.0
 Inc_File_Version=0
