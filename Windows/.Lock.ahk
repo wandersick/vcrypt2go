@@ -6,15 +6,15 @@ Exe_File=%In_Dir%\.Lock.exe
 Execution_Level=3
 [VERSION]
 Set_Version_Info=1
-Company_Name=a wandersick
-File_Description=Close Protected Drive
-File_Version=0.0.0.1
+Company_Name=wandersick
+File_Description=Close Protected Drive via vCrypt2Go
+File_Version=2.0.0.0
 Inc_File_Version=0
 Internal_Name=Lock
 Legal_Copyright=Copyright (c) 2012-2018 a wandersick production (http://wandersick.blogspot.com)
 Original_Filename=Lock
 Product_Name=Lock
-Product_Version=0.0.0.1
+Product_Version=2.0.0.0
 [ICONS]
 Icon_1=%In_Dir%\Lock.ico
 
