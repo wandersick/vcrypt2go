@@ -3,8 +3,6 @@ Named after VeraCrypt and 'BitLocker To Go', vCrypt2Go – a set of lock-and-unl
 
 With this set of tools, anyone can turn any existing unsecured USB stick or hard disk into one that is a more secure, as well as using it with ease and convenience.
 
-For more information, see https://wandersick.blogspot.com/2018/02/introducing-tcrypt2go-and-vcrypt2go.html
+For download and more information, see https://gallery.technet.microsoft.com/tCrypt2Go-and-vCrypt2Go-7cd92f42
 
 Looking for TrueCrypt? tCrypt2Go based on TrueCrypt is available at https://github.com/wandersick/tcrypt2go/
-
-__vCrypt2Go based on VeraCrypt is under works. If you need a solution that works now, refer to tCrypt2Go based on TrueCrypt above__
