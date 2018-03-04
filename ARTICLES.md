@@ -1,6 +1,3 @@
-Introducing tCrypt2Go and vCrypt2Go – Lock-and-Unlock Utilities for TrueCrypt and VeraCrypt Portable
-https://wandersick.blogspot.com/2018/02/introducing-tcrypt2go-and-vcrypt2go.html
-
 Technical Overview – How tCrypt2Go and vCrypt2Go work
 https://wandersick.blogspot.com/2018/02/technical-overview-how-tcrypt2go-and.html
 
