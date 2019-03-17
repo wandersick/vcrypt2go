@@ -5,7 +5,7 @@ With this set of tools, anyone can turn any existing unsecured USB stick or hard
 
 For download and more information, see https://gallery.technet.microsoft.com/tCrypt2Go-and-vCrypt2Go-7cd92f42
 
-Looking for TrueCrypt? tCrypt2Go based on TrueCrypt is available at https://github.com/wandersick/tcrypt2go/
+**Looking for TrueCrypt?** tCrypt2Go based on TrueCrypt is available at https://github.com/wandersick/tcrypt2go/
 
 ---
 
