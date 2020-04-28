@@ -31,7 +31,7 @@ Named after TrueCrypt and &#39;BitLocker To Go&#39;, tCrypt2Go – a set of open
 - Portable and cross-platform – Windows and Mac OS X (beta)
 - Automatic User Account Control elevation to highest privileges available on Windows Vista and later
 
-(Refer to [Technical Overview](https://wandersick.blogspot.com/2018/02/technical-overview-how-tcrypt2go-and.html) article for limitations.)
+(Refer to [Technical Overview](https://tech.wandersick.com/2018/02/technical-overview-how-tcrypt2go-and.html) article for limitations.)
 
 ## Seeing It in Action
 
@@ -58,11 +58,11 @@ To learn more about the technical details behind, read the Technical Overview ar
 ## List of Articles on tCrypt2Go/vCrypt2Go
 
 - **\*You Are Here\***  Introducing tCrypt2Go and vCrypt2Go – Lock-and-Unlock Utilities for TrueCrypt and VeraCrypt Portable
-- [Technical Overview – How tCrypt2Go and vCrypt2Go work](https://wandersick.blogspot.com/2018/02/technical-overview-how-tcrypt2go-and.html)
-- [Installation Guide – Setting up tCrypt2Go and vCrypt2Go to Encrypt Portable ](https://wandersick.blogspot.com/2018/02/installation-guide-setting-up-tcrypt2go_26.html)[**Hard Disks**](https://wandersick.blogspot.com/2018/02/installation-guide-setting-up-tcrypt2go_26.html)
-- [Installation Guide – Setting up tCrypt2Go and vCrypt2Go to Encrypt USB ](https://wandersick.blogspot.com/2018/02/installation-guide-setting-up-tcrypt2go.html)[**Thumb Drives**](https://wandersick.blogspot.com/2018/02/installation-guide-setting-up-tcrypt2go.html)
-- [User Guide – How to Unlock and Lock Encrypted Drives using tCrypt2Go or vCrypt2Go](https://wandersick.blogspot.com/2018/02/user-guide-how-to-unlock-and-lock.html)
-- [Enhancing and Troubleshooting Common Issues with tCrypt2Go or vCrypt2Go](https://wandersick.blogspot.com/2018/02/enhancing-and-troubleshooting-common.html)
+- [Technical Overview – How tCrypt2Go and vCrypt2Go work](https://tech.wandersick.com/2018/02/technical-overview-how-tcrypt2go-and.html)
+- [Installation Guide – Setting up tCrypt2Go and vCrypt2Go to Encrypt Portable ](https://tech.wandersick.com/2018/02/installation-guide-setting-up-tcrypt2go_26.html)[**Hard Disks**](https://tech.wandersick.com/2018/02/installation-guide-setting-up-tcrypt2go_26.html)
+- [Installation Guide – Setting up tCrypt2Go and vCrypt2Go to Encrypt USB ](https://tech.wandersick.com/2018/02/installation-guide-setting-up-tcrypt2go.html)[**Thumb Drives**](https://tech.wandersick.com/2018/02/installation-guide-setting-up-tcrypt2go.html)
+- [User Guide – How to Unlock and Lock Encrypted Drives using tCrypt2Go or vCrypt2Go](https://tech.wandersick.com/2018/02/user-guide-how-to-unlock-and-lock.html)
+- [Enhancing and Troubleshooting Common Issues with tCrypt2Go or vCrypt2Go](https://tech.wandersick.com/2018/02/enhancing-and-troubleshooting-common.html)
 
 ## Release History
 
